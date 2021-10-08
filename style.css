@@ -1,0 +1,69 @@
+.logo {
+    width: 120px;
+    height: 120px;
+    float: left;
+    float: bottom;
+}
+
+/* Resize logo */
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+/* InfoRedirects styling */
+.InfoRedirects ul {
+    list-style-type: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  li a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #19e6a2;
+  }
+
+body {
+
+  background:linear-gradient( #2a5ee8, skyblue)fixed;
+
+}
+
+.Name {
+  grid-area: text;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px black;
+
+}
+
+.Name h1 {
+  font-size: 3em;
+  color: white;
+}
+
+.Name p {
+  font-size: 2em;
+  color: white;
+}
+
+.Name {
+  margin-left: 20px;
+  justify-self: center;
+}
+
+.Name {
+  text-align: center;
+  margin: 0;
+}
