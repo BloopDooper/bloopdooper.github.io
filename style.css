@@ -1,69 +1,85 @@
 .logo {
-    width: 120px;
-    height: 120px;
-    float: left;
-    float: bottom;
+  width: 120px;
+  height: 120px;
+  float: left;
+  float: bottom;
 }
 
 /* Resize logo */
 .logo img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 /* InfoRedirects styling */
 .InfoRedirects ul {
-    list-style-type: none;
-    float: right;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
+  list-style-type: none;
+  float: right;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
 
-  li a {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: #18c289;
-  }
+li a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #19e6a2;
+}
 
 body {
 
-  background:linear-gradient( #2a5ee8, skyblue)fixed;
+background: #2a5ee8;
 
 }
 
 .Name {
-  grid-area: text;
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 20px;
-  text-shadow: 2px 2px black;
+grid-area: text;
+display: flex;
+flex-direction: column;
+margin-bottom: 20px;
+text-shadow: 2px 2px black;
 
 }
 
 .Name h1 {
-  font-size: 3em;
-  color: white;
+font-size: 3em;
+color: white;
 }
 
 .Name p {
-  font-size: 2em;
-  color: white;
+font-size: 2em;
+color: white;
 }
 
 .Name {
-  margin-left: 20px;
-  justify-self: center;
+margin-left: 20px;
+justify-self: center;
 }
 
 .Name {
-  text-align: center;
-  margin: 0;
+text-align: center;
+margin: 0;
+}
+
+.gear img{
+width: 10%;
+height: auto;
+transform: translateY(100px) translateX(-200px);
+animation: left-to-right-and-rotation 7s linear forwards infinite;
+}
+
+@keyframes left-to-right-and-rotation {
+from{
+  transform: translateX(-115%) rotate(0deg);
+}
+to {
+  transform: translateX(1150%) rotate(1080deg);
+}
 }
